@@ -7,3 +7,9 @@ class InventoryCalculations:
         for product in self.inventory.products:
             total += product.price * product.quantity
         return total
+
+    def total_items(self):
+        total = 0
+        for product in self.inventory.products:
+            total += product.quantity
+        return total
