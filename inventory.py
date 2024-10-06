@@ -5,5 +5,5 @@ class Inventory:
     def add_product(self, product):
         self.products.append(product)
 
-    def add_product(self, product):
+    def remove_product(self, product):
         self.products.remove(product)
