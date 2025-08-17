@@ -16,5 +16,5 @@ class InventoryCalculations:
 
     def total_price(self):
         total = 0
-        for product in self.products:
+        for product in self.inventory.products:
             total += product.price
