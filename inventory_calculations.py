@@ -14,6 +14,7 @@ class InventoryCalculations:
             total += product.quantity
         return total
 
+    # test push
     def total_price(self):
         total = 0
         for product in self.inventory.products:
